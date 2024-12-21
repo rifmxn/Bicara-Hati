@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Luahan Masalah - Platform modern untuk menyampaikan masalah anda.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <title>Luahan Masalah</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Luahan<span>Masalah</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="about.html">about</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#form-section">Form</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Selamat Datang ke <span>Luahan Masalah</span></h2>
+      <p>Ceritakan masalah anda dengan mudah, selesa, dan privasi terjaga.</p>
+      <a href="#form-section" class="btn-primary" id="startButton">Mulakan Sekarang</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Kenapa Pilih Kami?</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="privasi.png" alt="Privasi Terjamin">
+          <h3>Privasi Terjamin</h3>
+          <p>Data anda dijaga dengan teliti dan tidak akan dikongsi kepada pihak ketiga.</p>
+        </div>
+        <div class="card">
+          <img src="support.png" alt="Sokongan 24/7">
+          <h3>Sokongan 24/7</h3>
+          <p>Pasukan kami sedia membantu anda pada bila-bila masa.</p>
+        </div>
+        <div class="card">
+          <img src="call.png" alt="Mudah dan Cepat">
+          <h3>Mudah dan Cepat</h3>
+          <p>Hanya beberapa langkah mudah untuk menghubungi kami.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Form Section -->
+  <section id="form-section" class="form-section">
+    <div class="container">
+      <h2 class="section-title">Isikan Maklumat Anda</h2>
+      <form id="form-telegram">
+        <div>
+          <label for="Username">Username:</label>
+          <input type="text" id="Username" name="Username" required>
+        </div>
+        <div>
+          <label for="Email">Email:</label>
+          <input type="email" id="Email" name="Email">
+        </div>
+        <div>
+          <label for="nombor">No. Telefon:</label>
+          <input type="tel" id="nombor" name="nombor" pattern="^01\d{1,10}$" required>
+        </div>
+        <div>
+          <label for="Message">Masalah yang anda hadapi:</label>
+          <textarea id="Message" name="Message" required></textarea>
+        </div>
+        <button type="submit">Hantar</button>
+      </form>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Hubungi Kami</h2>
+      <p>WhatsApp kami untuk pertanyaan lebih lanjut:</p>
+      <a href="https://wa.me/601117820836" class="whatsapp-button">
+        <img src="wa.png" alt="WhatsApp Icon"> WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Bicara Hati | Dibangunkan oleh Arman</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
