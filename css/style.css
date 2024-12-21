@@ -19,7 +19,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
   max-width: 300px;
-  margin: 2px;
+  margin: 0 auto;
   padding: 0rem;
 }
 
@@ -165,6 +165,21 @@ body {
   z-index: 1000;
 }
 
+.navbart {
+  background-color: #0076b600;
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbart .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -196,7 +211,27 @@ body {
   transition: color 0.3s ease;
 }
 
-.navbar .nav-links a:hover {
+.navbart .nav-links a:hover {
+  color: #fca311;
+}
+
+.navbart .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbart .nav-links li {
+  margin-left:2rem;
+}
+
+.navbart .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.navbart .nav-links a:hover {
   color: #fca311;
 }
 
