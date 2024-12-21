@@ -18,7 +18,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 300px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -200,14 +200,6 @@ body {
   color: #fca311;
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: #fff;
-  cursor: pointer;
-}
 
 /* Hero Section */
 .hero {
@@ -363,9 +355,6 @@ body {
     flex-direction: column;
   }
 
-  .navbar .menu-toggle {
-    display: block;
-  }
 
   .navbar.active .nav-links {
     display: flex;
